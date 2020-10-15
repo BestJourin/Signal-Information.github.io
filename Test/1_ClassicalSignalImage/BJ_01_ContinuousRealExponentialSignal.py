@@ -89,3 +89,4 @@ ax.yaxis.set_ticks_position('left')          # 指定下边的边作为 x 轴   
 ax.spines['bottom'].set_position(('data', 0))   #指定 data  设置的bottom(也就是指定的x轴)绑定到y轴的0这个点上
 ax.spines['left'].set_position(('data', 0))
 plt.title("All The Functional Equation")
+plt.show()

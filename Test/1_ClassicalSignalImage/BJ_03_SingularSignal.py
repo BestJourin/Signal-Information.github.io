@@ -55,6 +55,7 @@ ax.xaxis.set_ticks_position('bottom')
 ax.yaxis.set_ticks_position('left')# 指定下边的边作为 x 轴   指定左边的边为 y 轴
 ax.spines['bottom'].set_position(('data', 0))#指定 data  设置的bottom(也就是指定的x轴)绑定到y轴的0这个点上
 ax.spines['left'].set_position(('data', 0))
+# plt.title("Functional Equation:u(t)="r"$\begin{cases}{4 (t>{2})}\\{t+2(-2\leq t\leq2)}\\{0 (t<-2)}\end{cases}$")
 plt.title(r"$Functional Equation:X(t)=\{_{4 (t>{2})}{t+2(-2\leq t\leq2)}^{0 (t<-2)}$")
 
 plt.subplot(223)      # 2 rows, 2 column, 3plot

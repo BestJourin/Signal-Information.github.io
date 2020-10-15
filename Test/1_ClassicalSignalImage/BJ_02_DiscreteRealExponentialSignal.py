@@ -18,12 +18,12 @@ def y2(n):
     return np.power(-1/2,n)
 
 
-n2 = np.arange(-5.0, 5.0, 1)
+n2 = np.arange(-5.0, 5.0)
 
 
 plt.figure('离散复指数函数信号')
 plt.subplot(231)      # 2 rows, 3 column, 1plot
-plt.plot(n2, g2(n2), 'bo')
+plt.stem(n2, g2(n2), 'b', 'bo')
 #设置坐标轴范围
 plt.xlim((-6, 6))
 plt.ylim((-1,10))
@@ -42,7 +42,7 @@ plt.title(r"$Functional Equation:ω=0,r=2,X[n]=2^n$")
 
 
 plt.subplot(232)      # 2 rows, 3 column, 2plot
-plt.plot(n2, h2(n2), 'ro')
+plt.stem(n2, h2(n2), 'r', 'ro')
 #设置坐标轴范围
 plt.xlim((-6, 6))
 plt.ylim((-1,10))
@@ -61,7 +61,7 @@ plt.title(r"$Functional Equation:ω=0,r=\frac{1}{2},X[n]=\frac{1}{2}^n$")
 
 
 plt.subplot(233)      # 2 rows, 3 column, 3plot
-plt.plot(n2, f2(n2), 'go')
+plt.stem(n2, f2(n2), 'g', 'go')
 #设置坐标轴范围
 plt.xlim((-6, 6))
 plt.ylim((-1,10))
@@ -80,7 +80,7 @@ plt.title(r"$Functional Equation:ω=0,r=1,X[n]=1^n$")
 
 
 plt.subplot(234)      # 2 rows, 3 column, 4plot
-plt.plot(n2, I2(n2), 'mo',)
+plt.stem(n2, I2(n2), 'm', 'mo')
 #设置坐标轴范围
 plt.xlim((-6, 6))
 plt.ylim((-10,10))
@@ -99,7 +99,7 @@ plt.title(r"$Functional Equation:ω=0,r=-2,X[n]=(-2)^n$")
 
 
 plt.subplot(235)      # 2 rows, 3 column, 5plot
-plt.plot(n2, y2(n2), 'yo')
+plt.stem(n2, y2(n2), 'y', 'yo')
 #设置坐标轴范围
 plt.xlim((-6, 6))
 plt.ylim((-10,10))
@@ -119,11 +119,11 @@ plt.title(r"$Functional Equation:ω=0,r=-\frac{1}{2},X[n]=(-\frac{1}{2})^n$")
 
 plt.subplot(236)      # 2 rows, 3 column, 6plot
 
-plt.plot(n2, g2(n2), 'bo',label=r"$X[n]=2^n$")
-plt.plot(n2, h2(n2), 'ro',label=r"$X[n]=\frac{1}{2}^n$")
-plt.plot(n2, f2(n2), 'go',label=r"$X[n]=1^n$")
-plt.plot(n2, I2(n2), 'mo',label=r"$X[n]=(-2)^n$")
-plt.plot(n2, y2(n2), 'yo',label=r"$X[n]=(-\frac{1}{2})^n$")
+plt.stem(n2, g2(n2), 'b', 'bo',label=r"$X[n]=2^n$")
+plt.stem(n2, h2(n2), 'r', 'ro',label=r"$X[n]=\frac{1}{2}^n$")
+plt.stem(n2, f2(n2), 'g', 'go',label=r"$X[n]=1^n$")
+plt.stem(n2, I2(n2), 'm', 'mo',label=r"$X[n]=(-2)^n$")
+plt.stem(n2, y2(n2), 'y', 'yo',label=r"$X[n]=(-\frac{1}{2})^n$")
 plt.legend(loc='best')
 #设置坐标轴范围
 plt.xlim((-6, 6))
@@ -139,3 +139,4 @@ ax.yaxis.set_ticks_position('left')          # 指定下边的边作为 x 轴   
 ax.spines['bottom'].set_position(('data', 0))   #指定 data  设置的bottom(也就是指定的x轴)绑定到y轴的0这个点上
 ax.spines['left'].set_position(('data', 0))
 plt.title("All The Functional Equation")
+plt.show()
