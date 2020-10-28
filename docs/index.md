@@ -9,7 +9,7 @@
       <p><b>Address:NingboTech University，No.1，Xuefu Road，Shounan street，Yinzhou District，Ningbo City，Zhejiang Province，Postcode 315000</b></p>
     </td>
     <td width="25%">
-      <img src="/IMG_3508(20200222-112641).JPG" width="100%">      % 插入证件照代码
+      <img src="/IMG_3508(20200222-112641).jpg" width="100%">      
     </td>
   </tr>
 </table>
