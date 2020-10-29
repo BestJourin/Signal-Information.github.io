@@ -20,8 +20,8 @@ tasks.json
 - Signal-Information.github.io
 README.md
 - Test
-- 1_ClassicalSignalImage\n
-[BJ_01_ContinuousRealExponentialSignal.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_01_ContinuousRealExponentialSignal.py)\n
-[BJ_02_DiscreteRealExponentialSignal.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_02_DiscreteRealExponentialSignal.py)\n
-[BJ_03_SingularSignal.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_03_SingularSignal.py)\n
-[BJ_04_LatexFunction.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_04_LatexFunction.py)\n
+- **1_ClassicalSignalImage**
+[BJ_01_ContinuousRealExponentialSignal.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_01_ContinuousRealExponentialSignal.py)
+[BJ_02_DiscreteRealExponentialSignal.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_02_DiscreteRealExponentialSignal.py)
+[BJ_03_SingularSignal.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_03_SingularSignal.py)
+[BJ_04_LatexFunction.py](https://github.com/BestJourin/Signal-Information.github.io/blob/master/Test/1_ClassicalSignalImage/BJ_04_LatexFunction.py)
